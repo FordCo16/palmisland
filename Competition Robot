@@ -8,28 +8,40 @@ task main()
 
 		if(vexRT[Btn6U] == 1)
 		{
+		
 			motor[armMotor] = 40;
+			
 		}
 		else if(vexRT[Btn6D] == 1)
 		{
+		
 			motor[armMotor] = -40;
+		
 		}
 		else
 		{
+		
 			motor[armMotor] = 0;
+		
 		}
 
 		if(vexRT[Btn5U] == 1)
 		{
+		
 			motor[clawMotor] = 40;
+		
 		}
 		else if(vexRT[Btn5D] == 1)
 		{
+		
 			motor[clawMotor] = -40;
+		
 		}
 		else
 		{
+		
 			motor[clawMotor] = 0;
+		
 		}
 	}
 
